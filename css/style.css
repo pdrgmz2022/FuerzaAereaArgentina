@@ -46,6 +46,26 @@ h1{
 .logo3{
     border-radius: 50%;
 }
+
+
+@keyframes cambiacolor{
+    0%{
+        color: yellow;
+    }
+    50%{
+        color: brown;
+        
+    }
+    100%{
+        color: green;
+    }
+
+}
+
+.animacion{
+    
+    animation: cambiacolor 1s ease infinite alternate;
+}
 .textoTitulo{
     font-size: 30px;
-}
+    animation: cambiacolor 1s ease infinite alternate;
