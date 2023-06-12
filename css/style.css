@@ -1,0 +1,51 @@
+.color_texto{
+    color: aliceblue;
+}
+.logo6{
+    width: 100px;
+    border-radius: 50%;
+}
+
+@keyframes cambiacolor{
+    0%{
+        color: yellow;
+    }
+    50%{
+        color: brown;
+        
+    }
+    100%{
+        color: green;
+    }
+
+}
+
+
+.animacion{
+    
+    animation: cambiacolor 1s ease infinite alternate;
+}
+a:hover{
+    color:rgb(0, 255, 34);
+    cursor: pointer; /* pone el cursor de la manito*/
+}
+h1{
+    color: rgb(42, 165, 83);
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.logopan{
+    font-size: 10px;
+    border-radius: 50%;
+}
+.titulo{
+    text-align: center;
+    align-items: center;
+}
+.logo3{
+    border-radius: 50%;
+}
+.textoTitulo{
+    font-size: 30px;
+}
