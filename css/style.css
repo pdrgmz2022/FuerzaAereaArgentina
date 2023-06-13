@@ -69,3 +69,9 @@ h1{
 .textoTitulo{
     font-size: 30px;
     animation: cambiacolor 1s ease infinite alternate;
+}
+
+.paginas a:hover{
+    color:rgb(0, 255, 34);
+    /*cursor: pointer; /* pone el cursor de la manito*/
+}
