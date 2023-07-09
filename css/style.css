@@ -75,3 +75,32 @@ h1{
     color:rgb(0, 255, 34);
     /*cursor: pointer; /* pone el cursor de la manito*/
 }
+@media screen and (max-width: 768px) {
+   #primera{
+        text-align: center;
+    }
+
+    #escu{
+        text-align: center;
+    }
+
+    #escu2{
+        justify-content: center;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        
+    }
+    #todos{
+        text-align: center;
+    }
+    #iconos2{
+        text-align: center;
+    }
+
+
+
+
+
+
+}   
