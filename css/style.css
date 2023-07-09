@@ -44,7 +44,7 @@ h1{
     align-items: center;
 }
 .logo3{
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 
@@ -85,10 +85,9 @@ h1{
     }
 
     #escu2{
-        justify-content: center;
+       
         width: 50px;
-        display: flex;
-        align-items: center;
+        
         
     }
     #todos{
@@ -97,7 +96,11 @@ h1{
     #iconos2{
         text-align: center;
     }
-
+    .alinear{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
 
 
 
