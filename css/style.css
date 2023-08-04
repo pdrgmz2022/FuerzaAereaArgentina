@@ -88,8 +88,7 @@ h1{
     #escu2{
        
         width: 50px;
-      
-        
+             
     }
     #todos{
         text-align: center;
@@ -102,12 +101,17 @@ h1{
         display: flex;
         align-items: center;
     }
-
-
-
-
-
 }   
+
+
+
 #escu2{
     border-radius: 50%;
 }
+
+ /*es para justificar los textos */
+
+.texto2 {
+    align-items: justify;
+    text-align: justify;
+    }
