@@ -46,8 +46,14 @@ h1{
 .logo3{
     border-radius: 0%;
     width: 100%;
-    height:50%;
+    height:10%;
 }
+.ancho{
+    border-radius: 0%;
+    width: 100%;
+    
+}
+
 
 
 @keyframes cambiacolor{
