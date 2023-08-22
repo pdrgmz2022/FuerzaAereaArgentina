@@ -84,6 +84,10 @@ h1{
     /*cursor: pointer; /* pone el cursor de la manito*/
 }
 @media screen and (max-width: 768px) {
+
+    .fixed-top {
+        position: static; /* desactiva fixed-top en dispositivos celulares*/
+    }
    #primera{
         text-align: center;
     }
