@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Policia Aeronautica Nacional</title>
+    <title>Policía Aeronáutica Nacional</title>
 
     <link rel="icon" href="./img/fuerza/logoPAN.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -18,7 +18,13 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     
+    <style>
+        @media (max-width: 767.98px) {
+            .fixed-top {
+                 position: static !important;}
+        }
 
+    </style>
    
 </head>
 <body>
@@ -39,8 +45,8 @@
               </div>
 
               <div class=" fs-5  text-center" id="primera">
-                <span class="text-primary m-3 textoTitulo animacion">Primera Promocion Mujeres</span> <!--  fs-5  significa un fontsize de 5 -->
-                <span class="text-primary  textoTitulo animacion">Fuerza Aerea Argentina</span> <!--  fs-5  significa un fontsize de 5 -->
+                <span class="text-primary m-3 textoTitulo animacion">Primera Promoción Mujeres</span> <!--  fs-5  significa un fontsize de 5 -->
+                <span class="text-primary  textoTitulo animacion">Fuerza Aérea Argentina</span> <!--  fs-5  significa un fontsize de 5 -->
               </div>
 
               <div class="" id="escu2"></div>  <!--a este div lo coloco para hacer un espacio y abarca 0 columnas -->
@@ -52,9 +58,9 @@
                 <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav ">
                       <div class="col-2 "></div> 
-                        <a class="nav-link text-white active  fs-5 " aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link text-white active  fs-5 " href="index.html">Inicio</a>
                         <a class="nav-link text-white opacity-75 fs-5 "  href="./paginas/historia.html">Historia</a>
-                        <a class="nav-link text-white opacity-75 fs-5" href="./paginas/ubicacion.html">Ubicacion</a>
+                        <a class="nav-link text-white opacity-75 fs-5" href="./paginas/ubicacion.html">Ubicación</a>
                         <a class="nav-link text-white opacity-75 fs-5" href="./paginas/contacto.html">Contacto</a> 
                         <a class="nav-link text-danger-emphasis fs-5" href="./paginas/fotos.html">Fotos</a>
                                         
@@ -186,175 +192,123 @@
         <!--------------------------------------- titulo de los integrantes ------------------------------------->
         
         <div class="m-3 text-center " id="oradores">
-            <p class="fs-3">CONOCE A LOS A LOS INTEGRANTES DE LA FUERZA</p>
+            <p class="fs-3">CONOCE A LOS INTEGRANTES DE LA FUERZA</p>
             
         </div>
         
         <!---------------------------------------- integrantes1 ------------------------------------------------->
         
-        <div class="oradores d-flex flex-column flex-md-row justify-content-center"> 
-            <!-- <div class="d-flex flex-column  align-item-center flex-md-row justify-content-center"></div> -->
-        
-            <!---------------------------------------- Gachy ---------------------------------------------------->
-            <div class="orador w-33 m-4 "> <!-- w-50 le da un width=50% -->
-                <div class="foto ">
-                    <a href="./paginas/gachy.html"><img src="./img/gachy/Gachy22.jpg" alt="Gachy" class=""></a>
-                </div>
-                <div class="desc">
-                    
-                    <div class="titulo m-4">
-                       <H3> Maria Isabel Gacharich </H3>
-                    </div>
-                    <div >
-                         <p class="text-center"><h5 class="text-center">FUNDAMENTO INCORPORACION PERSONAL FEMENINO EN POLICIA AERONÁUTICA NACIONAL</h5></p>
-                      
-                        <p class="texto2">
-                             La República Argentina en su condición de Estado miembro de la Organización de Aviación Civil, al incorporar en su marco jurídico la Convención de Aviación Civil Internacional, Chicago, 1944 Decreto - Ley 15.110/46, debía dar cumplimiento a las normas y recomendaciones  que la Organización disponga.
-                        </p>
-                        <p class="texto2">
-                              Como consecuencia de la cantidad de actos de interferencia ilícita que se concretaron en la década de los años sesenta e inicio de los setenta, que afectaban la seguridad y regularidad de las operaciones de la aviación civil internacional, el Consejo de la OACI adoptó el 22 de marzo de 1974, las normas y métodos recomendados internacionales sobre seguridad, de acuerdo a lo dispuesto en el Artículo 37 del Convenio sobre Aviación Civil Internacional que pasarán a ser el Anexo 17 – SEGURIDAD –
-                        </p>
-                    </div>
-                </div>
-        
+
+
+        <div class="card-group">
+            <div class="card">
+              <img src="./img/gachy/Gachy22.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">MARIA ISABEL GACHARICH</h5>
+                <p class="card-text"><h5 class="text-center">FUNDAMENTO INCORPORACIÓN PERSONAL FEMENINO EN POLICÍA AERONÁUTICA NACIONAL</h5></p>
+              
+                <p class="texto2"><small class="text-body-secondary "></small>La República Argentina en su condición de Estado miembro de la Organización de Aviación Civil, al incorporar en su marco jurídico la Convención de Aviación Civil Internacional, Chicago, 1944 Decreto - Ley 15.110/46, debía dar cumplimiento a las normas y recomendaciones  que la Organización disponga.</small></p>
+                <p class="texto2"><small class="text-body-secondary "></small>Como consecuencia de la cantidad de actos de interferencia ilícita que se concretaron en la década de los años sesenta e inicio de los setenta, que afectaban la seguridad y regularidad de las operaciones de la aviación civil internacional, el Consejo de la OACI adoptó el 22 de marzo de 1974, las normas y métodos recomendados internacionales sobre seguridad, de acuerdo a lo dispuesto en el Artículo 37 del Convenio sobre Aviación Civil Internacional que pasarán a ser el Anexo 17  SEGURIDAD </small></p>
+              
+              </div>
             </div>
+
+
+            <div class="card">
+              <img src="./img/fuerza/logoPAN.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">POLICIA AERONATICA NACIONAL</h5>
+
+                <p class="texto2"><small class="text-body-secondary "></small>En su capítulo 3 – Organización -  Título 3.1 – Organización Nacional y Autoridad Competente – Norma 3.1.2 establece que “Cada Estado competente designará y notificará a la OACI la autoridad competente de su administración que será responsable de la preparación, ejecución y cumplimiento del Programa Nacional de Seguridad de la Aviación Civil”
+                  Este texto de la Norma corresponde al Anexo 17, novena edición, año 2011, ya establecido en la primera edición, continuando vigente en las actualizaciones que le sucedieron.  
+                  </small></p>
+                <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+
+
+            <div class="card">
+              <img src="./img/marta/MartaSusanaPetraroia2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">MARTA SUSANA PETRAROIA</h5>
+                <p class="texto2"><small class="text-body-secondary "></small> efectos de dar cumplimiento a lo expuesto, en cumplimiento a la norma de OACI, es que el Estado Nacional procede a promulgar el 31/1/77 la ley 21.521/77 (B.O. 7/2/77), creando la Policía Aeronáutica Nacional, organismo competente y responsable en seguridad (AVSEC). 
+                  La PAN (Policía Aeronáutica Nacional)  en su origen dependía del Comando en Jefe de la Fuerza Aérea Argentina, siendo publicada su ley de creación en el Boletín Aeronáutico Público Nro. 2321, documentos donde se registraba y daba a conocer a los integrantes de la Fuerza las altas, pases, bajas del personal y su estructura orgánica, modificaciones y demás.
+                  Entre las funciones atribuidas en el capítulo IV – Funciones- el personal de la PAN debía “controlar o verificar personas, aeronaves, tripulaciones y cosas transportadas, en cuanto se refiere a seguridad”.La legislación vigente establecía que determinadas tareas debían ser realizadas exclusivamente por personal femenino, pudiendo éstas también intervenir en forma conjunta con personal masculino.....</small></p>
+
+                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+          </div>
+
+
           
-        
-            <!---------------------------------------- logo ---------------------------------------------------------->
-            <div class="orador w-33 m-4"> <!-- w-33 le da un width=33% -->
-                <div class="foto">
-                    <img src="./img/fuerza/logoPAN.jpg" alt="logo"  class="logo3">
-                </div>
-                <div class="desc">
-                    
-                    <div class="titulo m-4">
-                      <H3>Policia Aeronautica Nacional</H3>
-                    </div>
-                    <div>
-                          <P class="texto2">
-                            En su capítulo 3 – Organización -  Título 3.1 – Organización Nacional y Autoridad Competente – Norma 3.1.2 establece que “Cada Estado competente designará y notificará a la OACI la autoridad competente de su administración que será responsable de la preparación, ejecución y cumplimiento del Programa Nacional de Seguridad de la Aviación Civil”
-                            Este texto de la Norma corresponde al Anexo 17, novena edición, año 2011, ya establecido en la primera edición, continuando vigente en las actualizaciones que le sucedieron.  
-                            A efectos de dar cumplimiento a lo expuesto, en cumplimiento a la norma de OACI, es que el Estado Nacional procede 
-
-                          </P>
-                    </div>
-                </div>
-        
+        <div class="card-group">
+            <div class="card">
+              <img src="./img/capobianco/CRISTINACAPOBIANCO2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">MARIA CRISTINA CAPOBIANCO</h5>
+                <p class="card-text"><h5 class="text-center">LEY DE CREACION DE LA POLICÍA AERONÁUTICA NACIONAL</h5></p>
+                <p class="texto2"><small class="text-body-secondary "></small>LEY 21.521
+                  Buenos Aires, 31 de enero de 1977.
+                  En uso de las atribuciones conferidas por el artículo 5° del Estatuto para el Proceso de Reorganización Nacional,
+                  EL PRESIDENTE DE LA NACION ARGENTINA SANCIONA Y PROMULGA CON FUERZA DE LEY:
+                                                                    CAPITULO I
+                  Misión y Dependencia
+                  ARTICULO 1° — Créase la Policía Aeronáutica Nacional.
+                  ARTICULO 2° — La Policía Aeronáutica Nacional es una fuerza de seguridad militarizada que ejerce funciones de poder de policía en el aeroespacio y el servicio de policía de seguridad y judicial en la jurisdicción territorial mencionada en el artículo 4°.
+                  ARTICULO 3° — La Policía Aeronáutica Nacional depende del Comando en Jefe de la Fuerza Aérea.
+                  </small></p>
+                
+                
+                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+              </div>
             </div>
-        
-            <!------------------------------------------------- Marta ------------------------------------------------>
-            <div class="orador w-33 m-4"> <!-- w-50 le da un width=50% -->
-                <div class="foto">
-                  <a href="./paginas/marta.html"><img src="./img/marta/MartaSusanaPetraroia2.jpg" alt="Marta" class="img-fluid ancho"></a>
-                </div>
-                <div class="desc">
-                    
-                    <div class="titulo m-4">
-                      <H3>Marta Susana Petraroia </H3>
-                      </div>
-                        <div class="texto2">
-                          <P class="texto2">
-                              a promulgar el 31/01/1977 la ley 21.521/77 (B.O. 7/2/77), creando la Policía Aeronáutica Nacional, organismo competente y responsable en seguridad (AVSEC). 
-                              La PAN (Policía Aeronáutica Nacional)  en su origen dependía del Comando en Jefe de la Fuerza Aérea Argentina, siendo publicada su ley de creación en el Boletín Aeronáutico Público Nro. 2321, documentos donde se registraba y daba a conocer a los integrantes de la Fuerza las altas, pases, bajas del personal y su estructura orgánica, modificaciones y demás.
-                              Entre las funciones atribuidas en el capítulo IV – Funciones- el personal de la PAN debía “controlar o verificar personas, aeronaves, tripulaciones y cosas transportadas, en cuanto se refiere a seguridad”.La legislación vigente establecía que determinadas tareas debían ser realizadas exclusivamente por personal femenino, pudiendo éstas también intervenir en forma conjunta con personal masculino.Por lo expuesto, la conducción tomó la decisión de incorporar por primera vez en la Fuerza Aérea personal femenino
-                              
-                          </P>
-                        
-                        </div>
-                      </div>
-        
-                    </div>
-                  </div>
-              </div>
 
 
-        <!-------------------------------------------------- integrantes2 --------------------------------------------->
-        
-        <div class="oradores d-flex flex-column flex-md-row justify-content-center"> 
-          <!-- <div class="d-flex flex-column  align-item-center flex-md-row justify-content-center"></div> -->
-      
-          <!------------------------------------------------- Capobianco ---------------------------------------------->
-          <div class="orador w-33 m-4 "> <!-- w-50 le da un width=50% -->
-              <div class="foto ">
-                  <a href="./paginas/cristina.html"><img src="./img/Capobianco/CRISTINACAPOBIANCO2.jpg" alt="Cristina" class="img-fluid"></a>
+            <div class="card">
+              <img src="./img/fuerza/24.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">POLICIA AERONAUTICA NACIONAL</h5>
+                
+                <p class="texto2"><small class="text-body-secondary "></small>CAPITULO II
+                  Jurisdicción
+                  ARTICULO 4° — La Policía Aeronáutica Nacional tiene jurisdicción
+                  1°) En el aeroespacio.
+                  2°) En las aeronaves, aeródromos, pistas de aterrizaje e instalaciones terrestres radicadas en los mismos o que sirvan de apoyo a las operaciones aeroespaciales, en lo que no afecta a la jurisdicción militar.
+                  La jurisdicción atribuida en este inciso se ejercerá exclusivamente en aquellos ámbitos territoriales que delimite el Poder Ejecutivo Nacional a propuesta del Comando en Jefe de la Fuerza Aérea.
+                  3°) En los casos de infracciones de competencia federal que compromete el empleo del medio aéreo o la seguridad de la aeronavegación.
+                  </small></p>
+                
+                <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
               </div>
-              <div class="desc">
-                  
-                  <div class="titulo m-4">
-                     <H3>Cristina Capobianco</H3>
-                  </div>
-                  <div>
-                    <p class="text-center"><h5 class="text-center">CREACION DE LA POLICIA AERONÁUTICA NACIONAL</h5></p>
-                      <br>
-                      <p class="texto2">
-                        EL PRESIDENTE DE LA NACION ARGENTINA SANCIONA Y PROMULGA CON FUERZA DE LEY:
-                        CAPITULO I Misión y Dependencia ARTICULO 1° — Créase la Policía Aeronáutica Nacional. 
-                        ARTICULO 2° — La Policía Aeronáutica Nacional es una fuerza de seguridad militarizada 
-                        que ejerce funciones de poder de policía en el aeroespacio y el servicio de policía de
-                         seguridad y judicial en la jurisdicción territorial mencionada en el artículo 4°.
-                        ARTICULO 3° — La Policía Aeronáutica Nacional depende del Comando en Jefe de la Fuerza Aérea.
+            </div>
 
-                      </p>
-                     
-                  </div>
+
+            <div class="card">
+              <img src="./img/garcia/GRACIELAGARCIA3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">GRACIELA GARCIA</h5>
+                <p class="texto2"><small class="text-body-secondary "></small>ARTICULO 5° — La Policía Aeronáutica Nacional podrá actuar en jurisdicción de otras fuerzas de seguridad o policiales en persecución de delincuentes, sospechosos de delitos e infractores, o para la realización de diligencias urgentes relacionadas con sus funciones, debiendo darse conocimiento a la autoridad de seguridad o policial correspondiente.
+                  CAPITULO III
+                  Organización y Medios
+                  ARTICULO 6° — La Policía Aeronáutica Nacional tendrá nivel de Dirección Nacional.
+                  ARTICULO 7° — El cargo de Director Nacional de la Policía Aeronáutica Nacional será ejercido por un Oficial Superior de la Fuerza Aérea, en actividad.
+                  ARTICULO 8° — El Director Nacional de la Policía Aeronáutica Nacional será designado por el Poder Ejecutivo a propuesta del Comando en Jefe de la Fuerza Aérea, con intervención del Ministerio de Defensa. Los demás cargos..... </small></p>
+                
+                
+                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
               </div>
-      
+            </div>
           </div>
-      
-          <!----------------------------------------------------- logo2 ------------------------------------------------->
-          <div class="orador w-33 m-4"> <!-- w-33 le da un width=33% -->
-              <div class="foto">
-                  <img src="./img/fuerza/24.jpg" alt="logo"  class="">
-              </div>
-              <div class="desc">
-                  
-                  <div class="titulo m-4">
-                    <H3>Policia Aeronautica Nacional</H3>
-                  </div>
-                  <div>
-                   <P class="texto2">
-                    ARTICULO 4° — La Policía Aeronáutica Nacional tiene jurisdicción
-                    1°) En el aeroespacio.
-                    2°) En las aeronaves, aeródromos, pistas de aterrizaje e instalaciones terrestres radicadas en los mismos o que sirvan de apoyo a las operaciones aeroespaciales, en lo que no afecta a la jurisdicción militar.
-                    La jurisdicción atribuida en este inciso se ejercerá exclusivamente en aquellos ámbitos territoriales que delimite el Poder Ejecutivo Nacional a propuesta del Comando en Jefe de la Fuerza Aérea.
-                    3°) En los casos de infracciones de competencia federal que compromete el empleo del medio aéreo o la seguridad de la aeronavegación.
 
 
-                   </P>
-                  </div>
-              </div>
-      
-          </div>
-      
-          <!--------------------------------------------------- Garcia ------------------------------------------------->
-          <div class="orador w-33 m-4"> <!-- w-50 le da un width=50% -->
-              <div class="foto">
-                <a href="./paginas/graciela.html"><img src="./img/Garcia/GRACIELAGARCIA2.jpg" alt="Graciela" class="img-fluid"></a>
-              </div>
-              <div class="desc">
-                  
-                  <div class="titulo m-4">
-                    <H3>Graciela Garcia </H3>
-                  </div>
-                  <div>
-                    <P class="texto2">
-                      ARTICULO 5° — La Policía Aeronáutica Nacional podrá actuar en jurisdicción de otras fuerzas de seguridad o policiales en persecución de delincuentes, sospechosos de delitos e infractores, o para la realización de diligencias urgentes relacionadas con sus funciones, debiendo darse conocimiento a la autoridad de seguridad o policial correspondiente.
-                      CAPITULO III
-                      Organización y Medios
-                      ARTICULO 6° — La Policía Aeronáutica Nacional tendrá nivel de Dirección Nacional.
-                      
-                    </P>
-                    
-                  </div>
-              </div>
-      
-          </div>
-      </div>
 
 
-        
-        
-        
         <!-------------------------------------- foto y cuadro deslizante ---------------------------------------------->
         
         <section id="lugar-y-fecha" class="container-fluid p-0 overflow-hidden ">
@@ -368,12 +322,12 @@
         
                 <div
                     class=" col-6 animate__animated animate__fadeInRight  col-md-6 bg-dark text-white  d-md-block p-3  border ">
-                    <h4>10 de Agosto - Dia de la FUERZA AEREA ARGENTINA</h4>
+                    <h4>10 de Agosto - Día de la FUERZA AÉREA ARGENTINA</h4>
                     <P class="opacity-75 fs-7 texto2">
                       La Fuerza Aérea integra el grupo de fuerzas de paz de las Naciones Unidas integrando contingentes de diferentes naciones, entre otros en Chipre —Fuerza de Tareas Argentina—. El mayor aporte de la Fuerza Aérea en estas intervenciones es su moderno Hospital Militar Reubicable.
                     </P>
                     <p class="opacity-75 fs-7 texto2">En el año 2007 la Fuerza Aérea comenzó a participar del Operativo Fortín, el cual tenía el propósito de suministrar vigilancia del espacio aéreo argentino y brindar información a las Fuerzas de Seguridad en la lucha contra el narcotráfico. También se aportaron medios aéreos en forma constante al Plan Nacional de Manejo del Fuego. A su vez, a través de sus unidades, la Fuerza Aérea realiza control de espacio aéreo, empleando aeronaves IA-63 Pampa, IA-58 y A-4R Fightinhawk, además de radares en apoyo de las fuerzas de seguridad. A principios del año 2011 la fuerza incorporó para su nueva escuela de vehículos aéreos no tripulados, en la provincia de Córdoba, tres Nostromo Yarará, un vehículo aéreo no tripulado, el primero construido en Argentina para misiones de vigilancia y reconocimiento</p>
-                   <!--  <button type="button" class="btn btn-outline-light rounded-1">Conocé más</button> -->
+                    
                 </div>
             </div>
         </section>
@@ -393,13 +347,13 @@
           </a>
       </div>
       <div class=" row fs-5 col-md-5 text-center" id="primera">
-          <span class="text-success textoTitulo animacion ">Primera Promocion Mujeres</span> <!--  fs-5  significa un fontsize de 5 -->
-          <span class="text-success textoTitulo animacion "> Fuerza Aerea Argentina</span> <!--  fs-5  significa un fontsize de 5 -->
+          <span class="text-success textoTitulo animacion ">Primera Promoción Mujeres</span> <!--  fs-5  significa un fontsize de 5 -->
+          <span class="text-success textoTitulo animacion "> Fuerza Aérea Argentina</span> <!--  fs-5  significa un fontsize de 5 -->
           
       </div> 
       <div class="fs-6 mt-4 col-md-3" id="todos">
           <p class="text-warning text-center">Todos los derechos reservados </p>
-          <p class="text-warning text-center">Ing. Pedro E. Gomez</p>
+          <p class="text-warning text-center">Ing. Pedro E. Gómez</p>
       </div>
       
 
