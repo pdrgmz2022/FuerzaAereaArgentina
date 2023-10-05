@@ -84,10 +84,10 @@ h1{
     /*cursor: pointer; /* pone el cursor de la manito*/
 }
 @media screen and (max-width: 767px) {
-
+/* 
     .fixed-top {
-        position: static !important; /* desactiva fixed-top en dispositivos celulares*/
-    }
+        position: static !important;  desactiva fixed-top en dispositivos celulares
+    } */
    #primera{
         text-align: center;
     }
@@ -99,7 +99,7 @@ h1{
     #escu2{
        
         width: 50px;
-       
+       flex-direction: column;
     }
     #todos{
         text-align: center;
@@ -145,4 +145,8 @@ a:hover{
 }
 #margenarriba{
     padding-top: 70px;
+}
+
+#margenarriba2{
+    padding-top: 60px;
 }
