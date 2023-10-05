@@ -83,10 +83,10 @@ h1{
     color:rgb(0, 255, 34);
     /*cursor: pointer; /* pone el cursor de la manito*/
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     .fixed-top {
-        position: static; /* desactiva fixed-top en dispositivos celulares*/
+        position: static !important; /* desactiva fixed-top en dispositivos celulares*/
     }
    #primera{
         text-align: center;
@@ -99,7 +99,7 @@ h1{
     #escu2{
        
         width: 50px;
-             
+       
     }
     #todos{
         text-align: center;
@@ -116,6 +116,14 @@ h1{
     .ubi{
             max-width: 300px;
     }
+
+    #cuadro{
+        display:grid;
+    }
+    #lugar-y-fecha{
+        display:grid;
+
+    }
 }   
 
 
@@ -129,4 +137,12 @@ h1{
 .texto2 {
     align-items: justify;
     text-align: justify;
+    
     }
+a:hover{
+    color:rgb(0, 255, 34);
+    /*cursor: pointer; /* pone el cursor de la manito*/
+}
+#margenarriba{
+    padding-top: 70px;
+}
